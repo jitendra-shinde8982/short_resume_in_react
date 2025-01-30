@@ -1,0 +1,59 @@
+.MainContiner {
+  background: #dcdcdc;
+  margin: 50px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.profile_info {
+  display: flex;
+  align-items: center;
+}
+.profile_info img {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+.profile_info .nameHeading {
+  margin: 0 30px;
+}
+.profile_info .nameHeading h4 {
+  margin: 0;
+  font-size: 24px;
+}
+.profile_info .nameHeading .location {
+  display: flex;
+  margin: 10px 0;
+}
+.profile_info .nameHeading .location .loctionTxt {
+  margin: 0 5px;
+  font-size: 18px;
+}
+.profile_info .nameHeading .workStatus {
+  margin: 10px 0;
+}
+.profile_info .nameHeading .workStatus .coltxt {
+  color: #0b688f;
+}
+hr {
+  border-color: #efefef;
+  border-style: dashed;
+}
+.profile_sum{
+  padding: 0 20px;
+}
+
+.skillBox{
+  padding: 0 20px;
+}
+.d-flex{
+  display: flex;
+}
+.w-20{
+  width: 20%;
+}
+.col-skillsDIv{
+  color: #236f9d;
+  display: flex;
+  list-style: none;
+}
